@@ -15,17 +15,15 @@ public final class Tron extends SimpleGame
 	 *
 	 */
 	private static final long	serialVersionUID	= -6343250590038457574L;
-	private final int				floor[][];											//
-	private final int				tileSize				= 2;							// Felder
-	                                                                     // groesse
-	private final int				width					= 512;						// breite
-	private final int				height				= 512;						// hoehe
+	private final int	floor[][]; // Felder
+	private final int	tileSize = 2;
 
-	Sound								sound					= new Sound();
+	private final int	width	= 512;
+	private final int	height= 512;
 
-	boolean							wartenFuerEnde		= false;						// End
-	                                                                     // sequfenz
-	                                                                     // warteschlage
+	Sound	sound = new Sound();
+
+	boolean	wartenFuerEnde = false;// End sequfenz warteschlage
 
 	// ---------------------------------------------------------------------------------------------------------------------------
 	// Main (music anfang, KEYS einfuegen, hintergung einfuegen, erstellung der
